@@ -5,9 +5,9 @@ import amazon
 def main():
 
     # Amazon
-    amazon = amazon.Amazon()
-    amazon.search_word = "SEARCH WORD"
-    amazon.start()
+    amzn = amazon.Amazon()
+    amzn.search_word = "SEARCH WORD"
+    amzn.start()
 
 
 if __name__ == "__main__":
